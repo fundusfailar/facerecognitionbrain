@@ -1,0 +1,16 @@
+
+.tiltEffect {
+    height: 150px;
+    width: 150px; 
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: #FF69B4;
+    background: linear-gradient(90deg, rgba(181,24,122,1) 0%, rgba(193,87,169,0.9976365546218487) 47%, rgba(141,0,255,1) 100%);
+}
+
+img {
+    padding-top: 10px;
+}
