@@ -1,3 +1,5 @@
+
+import { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
@@ -7,8 +9,12 @@ import ParticlesComponent from './components/Particles/Particles.jsx';
 
 
 
-function App() {
-  return (
+class  App extends Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return(
     <div className="App">
       <ParticlesComponent />
       
@@ -19,7 +25,8 @@ function App() {
       {/* 
       <FaceRecognition /> */}
     </div>
-  );
+    )
+  }
 }
 
 export default App;
